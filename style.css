@@ -1,0 +1,27 @@
+body {
+    background-color: #eee;
+}
+
+#boxContainer {
+    margin:auto;
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: #222;
+}
+
+.gray {
+    background-color: #888;
+}
